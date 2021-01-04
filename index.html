@@ -37,6 +37,67 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
+<style type="text/css">
+  #more {display: none;}
+  #more1{display: none;}
+  #more2{display: none;}
+  
+  
+</style>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<script>
+function redFunction() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<script>
+function red1Function() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
 
 <body>
 
@@ -55,7 +116,7 @@
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
+          <!-- <li><a href="#testimonials">Testimonials</a></li> -->
           <li><a href="#pricing">Plan</a></li> 
            <li><a href="job.html">Job Description </a> </li>       
           <li><a href="#contact">Contact</a></li>
@@ -74,7 +135,7 @@
       <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Swoopitup</span></h2>
-          <p class="animate__animated fanimate__adeInUp">Swoop It Up is the future of transportations for your everyday items. Have you been meaning to return packages, and have gone for weeks or even months without returning them? The Swoop It Up App will take care of this problem for you! This service is run by independent contractors that will pick up your items, and deliver them to your desired destination; whether you are a consumer or run a business, Swoop It Up can meet your needs</p>
+          <p class="animate__animated fanimate__adeInUp">Swoop It Up is the future of transportations for your everyday items. Have you been meaning to return packages, and have gone for weeks or even months without returning them? The Swoop It Up App will take care of this problem for you! This service is run by independent contractors that will pick up your items, and deliver them to your desired destination; whether you are a consumer or run a business, Swoop It Up can meet your needs!</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -83,7 +144,7 @@
       <div class="carousel-item">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Swoopitup</span></h2>
-          <p class="animate__animated fanimate__adeInUp">Swoop It Up is the future of transportations for your everyday items. Have you been meaning to return packages, and have gone for weeks or even months without returning them? The Swoop It Up App will take care of this problem for you! This service is run by independent contractors that will pick up your items, and deliver them to your desired destination; whether you are a consumer or run a business, Swoop It Up can meet your needs</p>
+          <p class="animate__animated fanimate__adeInUp">Swoop It Up is the future of transportations for your everyday items. Have you been meaning to return packages, and have gone for weeks or even months without returning them? The Swoop It Up App will take care of this problem for you! This service is run by independent contractors that will pick up your items, and deliver them to your desired destination; whether you are a consumer or run a business, Swoop It Up can meet your needs!</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -92,7 +153,7 @@
       <div class="carousel-item">
         <div class="carousel-container">
            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Swoopitup</span></h2>
-          <p class="animate__animated fanimate__adeInUp">Swoop It Up is the future of transportations for your everyday items. Have you been meaning to return packages, and have gone for weeks or even months without returning them? The Swoop It Up App will take care of this problem for you! This service is run by independent contractors that will pick up your items, and deliver them to your desired destination; whether you are a consumer or run a business, Swoop It Up can meet your needs</p>
+          <p class="animate__animated fanimate__adeInUp">Swoop It Up is the future of transportations for your everyday items. Have you been meaning to return packages, and have gone for weeks or even months without returning them? The Swoop It Up App will take care of this problem for you! This service is run by independent contractors that will pick up your items, and deliver them to your desired destination; whether you are a consumer or run a business, Swoop It Up can meet your needs!</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -152,24 +213,24 @@
               We are here to help both businesses and consumers, by taking the responsibility of transporting their items to the right destination.
             </li>
             </ul>
-            <p>The Swoop It Up app is an easily accessible service, as it is available to download for free on any handheld device. Customers will be notified every step of the way, as they will be given details as to who and how packages will be picked up and dropped off. The item will be scanned and processed through the Swoop It Up app. A confirmation message will be sent, saying "received item"; this keeps the customer updated with the process of their packages. The item will then be delivered to their desired destination. Swoop It Up will then notify you once again, letting you know the item has arrived at its pre-determined destination. 
-            </p>
+           
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Swoop It Up offers different options depending on the size, weight and quantity of items requesting to be delivered. If any companies, including USPS, UPS, and FEDEX, ask for the item to be packaged to PIU standards, (ie. boxed, securely closed, shipping label with bar code) please do so; otherwise, the item that was picked up by Swoop It Up will be returned its original destination and the customer will be charged for a return fee. 
+             <p>The Swoop It Up app is an easily accessible service, as it is available to download for free on any handheld device. Customers will be notified every step of the way, as they will be given details as to who and how packages will be picked up and dropped off. The item will be scanned and processed through the Swoop It Up app. A confirmation message will be sent, saying "received item"; this keeps the customer updated with the process of their packages. The item will then be delivered to their desired destination. Swoop It Up will then notify you once again, letting you know the item has arrived at its pre-determined destination. 
+          
+             <span id="dots">...</span><span id="more">Swoop It Up offers different options depending on the size, weight and quantity of items requesting to be delivered. If any companies, including USPS, UPS, and FEDEX, ask for the item to be packaged to PIU standards, (ie. boxed, securely closed, shipping label with bar code) please do so; otherwise, the item that was picked up by Swoop It Up will be returned its original destination and the customer will be charged for a return fee. 
 
               <br>
               Swoop It Up has a privacy policy and terms that follow all legal guidelines, all of which must be signed when seeking to be an independent contractor. If between the ages of 14 and 17, a parent or guardian's signature will be required. 
               <br>
 
-              If you are interested in becoming a Swoop It Up contractor, the requirements are as follows. You are required to have some sort of vehicular transportation, as you may be asked to deliver packages weighing up to 50 lbs. all Swoop It Up contractors need to provide a photo ID, a picture of your present self, and a picture of your means of transporting the items are required. 
+              If you are interested in becoming a Swoop It Up contractor, the requirements are as follows. You are required to have some sort of vehicular transportation, as you may be asked to deliver packages weighing up to 50 pounds . all Swoop It Up contractors need to provide a photo ID, a picture of your present self, and a picture of your means of transporting the items are required. 
               <br>
 
-              Swoop It Up is a unique service, as it is available 24/7. If a Swoop It Up customer requests a package to be dropped off on days the receiving company or location is closed, the contractor has the option to either notify you or drop it off at the address you provided. Otherwise, you can re-route the driver to the return address. An important note when choosing Swoop It Up as your means of item delivery is that items must be 50lbs or less, and shorter than 5ft. 
-
+              Swoop It Up is a unique service, as it is available 24/7. If a Swoop It Up customer requests a package to be dropped off on days the receiving company or location is closed, the contractor has the option to either notify you or drop it off at the address you provided. Otherwise, you can re-route the driver to the return address. An important note when choosing Swoop It Up as your means of item delivery is that items must be 50 pounds  or less, and shorter than 5ft. 
+            </span>
             </p>
-            
+            <span style="color: #406ae0;cursor: pointer;" onclick="myFunction()" id="myBtn">Read More</span>
           </div>
         </div>
 
@@ -342,7 +403,8 @@
               <div class="icon"><i class="las la-basketball-ball" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="">SWOOPERS</a></h4>
               <p class="description">Become a swooper today! A swooper is an independent contractor who will have access to the Swoop It Up driver app. 
-              Download the “Swooper” app to begin your application to register for the role. If requested, we are also able to send you a link that will directly send you to our app where you are able to register. If you are under the age of 18, you will also find the consent form that requires your parent or guardian to fill up in order for you to become a Swooper.
+              Download the “Swooper” app to begin your application to register for the role.  If you are under the age of 18, you will also find the consent form that requires your parent or guardian to fill out in order for you to become a Swooper.
+              <a target="_blanck" href="assets/img/f.pdf" download>Download form</a>
               </p>
             </div>
           </div>
@@ -351,13 +413,18 @@
               <div class="icon"><i class="las la-book" style="color: #e9bf06;"></i></div>
               <h4 class="title"><a href="">SWOOPER BONUSES</a></h4>
               <p class="description">Through the app, you are able to set goals. Upon achieving your goal, you will receive a bonus.
-
-              Marketing bonuses: Recruit a driver make $50 once recruited driver swoops up 100 packages.  
-              50 Package per shift bonus: $25.00 
-              100 Package per shift bonus: $50.00  
-              150 Package per shift bonus: $75.00
-              **All tips received from Swoop It Up are 100% guaranteed to the driver**
+                 <!-- <button style="    border-radius: 10px;
+    padding: 5px 14px;
+    background: #ffffff;
+    border: 2px #406ae0 solid!important;" onclick="myFunction()" id="myBtn1">Read more</button> -->
+               
+             <span id="dots1">...</span><span id="more1"> Marketing bonuses: Recruit a driver make $50 once recruited driver swoops up 100 packages.  
+              50 Package per shift bonus: $25.00 <br>
+              100 Package per shift bonus: $50.00 <br>
+              150 Package per shift bonus: $75.00<br>
+              **All tips received from Swoop It Up are 100% guaranteed to the driver**<br></span>
               </p>
+              <span style="color: #406ae0;cursor: pointer; margin-left: 37px;" onclick="redFunction()" id="myBtn1">Read More</span>
             </div>
           </div>
 
@@ -366,31 +433,43 @@
               <div class="icon"><i class="las la-file-alt" style="color: #3fcdc7;"></i></div>
               <h4 class="title"><a href="">INDEPENDENT CONTRACTOR </a></h4>
               <p class="description">Through Swoop It Up, you will learn how to become a top independent contractor, learn tax benefits, as well as learn the ropes of being an entrepreneur.  
-
-                (Click on independent contractor link) last page I will share the information that will be under this link. 
+                
+                
+                <span id="dots2">...</span><span id="more2">
+                  last page I will share the information that will be under this link.
+                  </span> 
                 </p>
+                 <span style="color: #406ae0;cursor: pointer; margin-left: 37px;" onclick="red1Function()" id="myBtn2">Read More</span>
+              
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
               <div class="icon"><i class="las la-tachometer-alt" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">STANDARD SWOOP IT UP</a></h4>
-              <p class="description">Standard Swoop It Up order is your basic order. A Swooper will pick up your package, and drop it off to your requested destination; however, they will also have the option to pick up multiple packages on the way to your drop off destination.</p>
+              <h4  class="title"><a style="cursor: pointer;" data-toggle="collapse" data-target="#demo1" >STANDARD SWOOP IT UP</a></h4>
+               
+              <p  style="font-size: 14px; padding: 0px 31px; margin-left: 10px;" id="demo1" class="collapse "
+              class="description">
+            Standard Swoop It Up order is your basic order. A Swooper will pick up your package, and drop it off to your requested destination; however, they will also have the option to pick up multiple packages on the way to your drop off destination.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
               <div class="icon"><i class="las la-globe-americas" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><a href="">EXPRESS SWOOP IT UP</a></h4>
-              <p class="description">Express Swoop It Up order; you can make an appointment to pick up your item. After the contracted Swooper picks up your item, they will go directly to your designated drop-off destination. </p>
+              <h4 class="title"><a style="cursor: pointer;"  data-toggle="collapse"
+                data-target="#demo2">EXPRESS SWOOP IT UP</a></h4>
+             
+              <p style="font-size: 14px; padding: 0px 31px; margin-left: 10px;" id="demo2" class="collapse " class="description">Express Swoop It Up order; you can make an appointment to pick up your item. After the contracted Swooper picks up your item, they will go directly to your designated drop-off destination. </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
               <div class="icon"><i class="las la-clock" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">Monthly SUBSCRIPTION</a></h4>
-              <p class="description">•  Subscription Option A. 75 items <br>
+              <h4 class="title"><a style="cursor: pointer;" data-toggle="collapse"
+                data-target="#demo3">Monthly SUBSCRIPTION</a></h4>
+               
+              <p style="font-size: 14px; padding: 0px 31px; margin-left: 10px;" id="demo3" class="collapse " class="description">•  Subscription Option A. 75 items <br>
                 • Subscription Option B. 150 items <br>
                 • Subscription Option C. 200 items
                 </p>
@@ -407,7 +486,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
       <div class="container">
 
         <div class="section-title" data-aos="zoom-out">
@@ -475,7 +554,7 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> --><!-- End Testimonials Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
@@ -499,8 +578,11 @@
                 <li>Set an appointment for pickup</li>
                 
               </ul>
-               <h4><sup>FEES - EXPRESS</sup></h4>
-               <ul>
+               <h4><sup style="cursor: pointer;" data-toggle="collapse"
+                data-target="#demo4">FEES - EXPRESS</sup></h4>
+               
+               
+               <ul id="demo4" class="collapse ">
                  <li>$0.55 a mile, 4 items per order </li>
                  <li>$0.99 a mile, 5+ items</li>
                  <li> After 5 miles, there will be a $0.30 increase per mile</li>
@@ -522,15 +604,18 @@
                 <li>QR Scan</li>
                 
               </ul>
-              <h4><sup>FEES - STANDARD</sup></h4>
-              <ul>
+              <h4><sup style="cursor: pointer;" data-toggle="collapse"
+                data-target="#demo6">FEES - STANDARD</sup></h4>
+               
+               
+              <ul  id="demo6" class="collapse ">
                 <li>$0.55 a mile, 2 items per order </li>
                 <li>$0.99 a mile, 3+ items</li>
                 <li>After 5 miles, there will be a $0.30 increase per mile 
                 </li>
               </ul>
               
-<br><br><br><br>
+
               <!-- <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
               </div> -->
@@ -540,6 +625,18 @@
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <h3>Monthly SUBSCRIPTION</h3>
+              <p>Save up to 20% off </p>
+              <ul>
+                <li>Pick up and direct drop off</li>
+                  <li> Set an appointment for pick up </li>
+                  <li>Visual Navigation </li>
+                  <li> QR Scan </li>
+              </ul>
+              
+              <h4 style="text-align: center;"> <sup style="    color: #406ae0;cursor: pointer;"   data-toggle="collapse"
+                data-target="#demo5">Membership</sup>
+            </h4>
+            <span id="demo5" class="collapse ">
               <h4><sup>$</sup>134.32 <span> / month</span></h4>
               <ul>
                 <li>75 items per month, $0.50 per mile</li>
@@ -554,13 +651,12 @@
               <ul>
                 <li> 200 items per month, $0.50 per mile  </li>
               </ul>
+             <p>Going over monthly business Membership package is .99 cents per item.</p> 
 
-              <ul>
-                <li>• Pick up and direct drop off</li>
-                  <li> Set an appointment for pick up </li>
-                  <li>Visual Navigation </li>
-                  <li> QR Scan </li>
-              </ul>
+                <p>Charges per mile will increase after 5 miles (.30 cents per mile)</p>
+
+            </span>
+              
              <!--  <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
               </div> -->
@@ -632,7 +728,7 @@
             <a data-toggle="collapse" href="#faq4" class="collapsed">How can I order a Swoop It Up?<i class="icofont-simple-up"></i></a>
             <div id="faq4" class="collapse" data-parent=".faq-list">
               <p>
-                Download the Swoop It Up app on a smart phone (IOS or Android) and book a trip. 
+                Download the Swoop It Up app on a smart phone (IOS or Android) and book a pickup. 
               </p>
             </div>
           </li>
@@ -759,7 +855,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
-        Designed by <a href="https://www.globalsoftlabs.com/" target="_blanck">GlobalSoftLabs Pvt. Ltd</a>
+        Designed by <a href="http://www.swoopitup.com/" target="_blanck">GlobalSoftLabs Pvt. Ltd</a>
       </div>
     </div>
   </footer><!-- End Footer -->
