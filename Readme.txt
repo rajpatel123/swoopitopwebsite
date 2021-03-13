@@ -1,6 +1,15 @@
-Thanks for downloading this template!
+Swoop It Up is the future of delivery service for your everyday items. Have you been meaning to return packages, and have gone for weeks or even months without returning them? The Swoop It Up App will take care of this problem for you! This service is run by independent contractors who will pick up your items, and deliver them to your desired destination; whether you are a consumer or run a business, Swoop It Up can meet your needs!
 
-Template Name: Selecao
-Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+ We provide business opportunities for a wide range of individuals: those considered to be the, students and individuals who are looking for extra income to support themselves and/or their families.
+
+ Swoop It Up is here to make it easier for consumers to return their items. Whether it needs to be dropped off at the post office, or you need an item delivered to someone that day. Let us help you!
+
+ We are here to help both businesses and consumers, by taking the responsibility of transporting their items to the right destination.
+
+The Swoop It Up app is an easily accessible service, as it is available to download for free on any handheld device. Customers will be notified every step of the way, as they will be given details as to who and how packages will be picked up and dropped off. The item will be scanned and processed through the Swoop It Up app. A confirmation message will be sent, saying "received item"; this keeps the customer updated with the process of their packages. The item will then be delivered to their desired destination. Swoop It Up will then notify you once again, letting you know the item has arrived at its pre-determined destination. Swoop It Up offers different options depending on the size, weight and quantity of items requesting to be delivered. If any companies, including USPS, UPS, and FEDEX, ask for the item to be packaged to PIU standards, (ie. boxed, securely closed, shipping label with bar code) please do so; otherwise, the item that was picked up by Swoop It Up will be returned its original destination and the customer will be charged for a return fee.
+
+Swoop It Up has a privacy policy and terms that follow all legal guidelines, all of which must be signed when seeking to be an independent contractor. If under the age of 18, a parent or guardian's signature will be required.
+
+If you are interested in becoming a Swoop It Up contractor, the requirements are as follows. You are required to have some sort of vehicular delivery service, as you may be asked to deliver packages weighing up to 50 pounds. all Swoop It Up contractors need to provide a photo ID, a picture of your present self, and a picture of your means of transporting the items are required.
+
+Swoop It Up is a unique service, as it is available 24/7. If a Swoop It Up customer requests a package to be dropped off on days the receiving company or location is closed, the contractor has the option to either notify you or drop it off at the address you provided. Otherwise, you can re-route the driver to the return address. Important note when choosing Swoop It Up as your means of item delivery is that items must be 50 pounds or less, and shorter than 5ft.
